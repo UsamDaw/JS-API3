@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images3.alphacoders.com/130/1303534.png);
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}   
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.character-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.character-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.character-info {
+    margin-top: 10px;
+}
+
+.character-info p {
+    margin: 5px 0;
+}
